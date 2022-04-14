@@ -1,0 +1,128 @@
+html,
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url("img/bg1.png");
+  background-position: 0% 9%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    margin-top: 17vw;
+    margin-bottom: 35vw;
+}
+
+#tagline {
+    width: 800px;
+    margin-top: 300px;
+}
+
+h1 {
+    font-size: 10px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+p {
+    font-size: 22px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.parallax {
+    height: 30vw;
+    background-image: url(img/bg2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+}
+
+input[type="text"] {
+    width: 25vw;
+}
+
+textarea {
+    width: 52vw;
+}
+
+.parallax2 {
+    height: 40vw;
+    background-image: url(img/bg3.png);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.parallax2 h2 {
+    color: black;
+    padding-bottom: 5vh;
+}
+
+.parallax2 p {
+    color: black;
+    font-size: 1.3vw;
+}
+
+#world {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 56px;
+    font-weight: 900;
+}
+
+#desc {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 600;
+    text-shadow: 2px 2px #5a525259;
+    font-size: 30px;
+}
+
+
+#style2 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+#style3 {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.cols3 {
+    position: relative;
+}
+
+.count {
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 12vh;
+}
+
+.footer {
+    background-image: url(img/bg4);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+}
+
+.rights {
+    position: absolute;
+    bottom: 0;
+    color: black;
+}
